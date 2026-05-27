@@ -133,7 +133,7 @@ Agrega esto en tu <style>:*/
       margin-right: 8px;
       font-size: 0.95em;
     }
-    .hidden { display:none; }
+   /* .hidden { display:none; }*/
     .login-form input {
       padding: 8px;
       border: 1px solid #d1d5db;
