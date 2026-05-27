@@ -27,9 +27,14 @@
 <body>
   --->
   <!-- Barra de navegación -->
-  <div class="navbar">
-    <div>
-      <strong>Venta de Autos</strong>
+    
+            <!-- Header -->
+            <header class="header-nav">
+               <div class="navbar">
+    <div>  <span>
+                      <strong>Venta de Autos</strong> 
+                  </span>
+     
     </div>
     <div>
       <button class="menu-btn" id="todosBtn">Todos</button>
@@ -39,6 +44,31 @@
       <button class="logout-btn hidden" id="logoutMenuBtn">Salir</button>
     </div>
   </div>
+                
+                  <span>
+                  <nav>
+                        <a href="#perfil">Perfil</a>
+                        <a href="#productos">Productos</a>
+                        <a href="#promociones">Promociones</a>
+                        <a href="#contacto">Contacto</a>   
+                        <button onclick="location.href='/index.html'" class="active">Inicio</button>
+                        <button onclick="location.href='/profile.html'">Mi Perfil</button>
+                        <button onclick="logout()">Cerrar Sesión</button>
+                        
+                        <!-- Botón para abrir login ---_ - 
+                              style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%);    background:#222; color:#eee; padding:20px; border-radius:10px; box-shadow:0 0 10px #000;"> 
+                        <div id="loginModal" >
+                              <h3>Mini Login</h3>
+                              <input type="text" id="user" placeholder="Usuario" style="margin-bottom:10px;"><br>
+                              <input type="password" id="pass" placeholder="Contraseña" style="margin-bottom:10px;"><br>
+                        <button id="openLogin">open - Login- mini</button>                        
+                        <button id="loginBtn">Ingresar</button>
+                        <button id="closeLogin">Cerrar-LOGIN</button>
+                        </div>
+                        --->
+                  </nav>
+                  </span>
+            </header>
   
  <!-- 1. HTML
 Agrega este bloque justo después del <body>:-->
