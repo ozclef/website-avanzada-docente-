@@ -16,6 +16,7 @@
     let editId = null;
 
     // --- FUNCIONES DE INTERFAZ ---
+
     function mostrarLanding() {
       document.getElementById('mainContent').classList.remove('hidden');
       document.getElementById('loginPage').classList.add('hidden');
